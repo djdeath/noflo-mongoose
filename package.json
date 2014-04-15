@@ -31,6 +31,7 @@
     "components": {
       "Connect": "components/Connect.coffee",
       "CreateDocument": "components/CreateDocument.coffee",
+      "CreateModel": "components/CreateModel.coffee",
     }
   },
   "scripts": {
