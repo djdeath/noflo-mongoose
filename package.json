@@ -37,6 +37,7 @@
       "FindDocument": "components/FindDocument.coffee",
       "FindOneDocument": "components/FindOneDocument.coffee",
       "GetModel": "components/GetModel.coffee",
+      "SaveDocument": "components/SaveDocument.coffee"
     }
   },
   "scripts": {
