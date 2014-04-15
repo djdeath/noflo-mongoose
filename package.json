@@ -32,6 +32,7 @@
       "Connect": "components/Connect.coffee",
       "CreateDocument": "components/CreateDocument.coffee",
       "CreateModel": "components/CreateModel.coffee",
+      "FindDocument": "components/FindDocument.coffee",
       "GetModel": "components/GetModel.coffee",
     }
   },
