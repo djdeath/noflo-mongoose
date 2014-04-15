@@ -1,0 +1,39 @@
+{
+  "name": "noflo-mongoose",
+  "description": "NoFlo components for the mongoose framework",
+  "version": "0.0.1",
+  "author": {
+    "name": "Lionel Landwerlin",
+    "email": "lionel.g.landwerlin@linux.intel.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/djdeath/noflo-mongoose.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "undefined/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "noflo": "~0.5.0",
+    "mongoose": "~3.8.8"
+  },
+  "devDependencies": {
+    "coffeelint": "~0.5.6",
+    "coffee-script": "~1.6.3",
+    "nodeunit": ">=0.6.0"
+  },
+  "keywords": [],
+  "noflo": {
+    "icon": "hdd",
+    "components": {
+      "Connect": "components/Connect.coffee"
+    }
+  },
+  "scripts": {
+    "pretest": "./node_modules/.bin/coffeelint -r components",
+    "test": "./node_modules/.bin/nodeunit test"
+  }
+}
