@@ -27,7 +27,7 @@
   },
   "keywords": [],
   "noflo": {
-    "icon": "hdd",
+    "icon": "hdd-o",
     "components": {
       "Connect": "components/Connect.coffee"
     }
