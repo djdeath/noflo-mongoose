@@ -29,7 +29,8 @@
   "noflo": {
     "icon": "hdd-o",
     "components": {
-      "Connect": "components/Connect.coffee"
+      "Connect": "components/Connect.coffee",
+      "CreateDocument": "components/CreateDocument.coffee",
     }
   },
   "scripts": {
