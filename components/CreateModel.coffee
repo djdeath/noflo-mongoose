@@ -1,4 +1,3 @@
-schemagen = require 'mongoose-schemagen'
 noflo = require 'noflo'
 
 class CreateModel extends noflo.Component
