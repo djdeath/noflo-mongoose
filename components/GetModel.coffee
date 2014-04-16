@@ -1,4 +1,3 @@
-schemagen = require 'mongoose-schemagen'
 noflo = require 'noflo'
 
 class CreateModel extends noflo.Component
@@ -11,12 +10,12 @@ class CreateModel extends noflo.Component
 
     @inPorts.connection.on 'data', (connection) =>
       @connection = connection
-      @createmodel()
+      @getModel()
     @inPorts.name.on 'data', (name) =>
       @name = name
-      @createmodel()
+      @getModel()
 
-  createModel: () ->
+  getModel: () ->
     return unless @connection and @name
     model = @connection.model(@name)
     delete @name
