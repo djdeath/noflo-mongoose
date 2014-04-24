@@ -1,0 +1,41 @@
+{
+  "name": "noflo-mongoose",
+  "description": "NoFlo components for the mongoose framework",
+  "version": "0.0.1",
+  "author": {
+    "name": "Lionel Landwerlin",
+    "email": "lionel.g.landwerlin@linux.intel.com"
+  },
+  "repo": "djdeath/noflo-express",
+  "keywords": [
+  ],
+  "scripts": [
+    "index.js",
+    "components/Connection.coffee",
+    "components/CreateDocument.coffee",
+    "components/CreateModel.coffee",
+    "components/DocumentToJSON.coffee",
+    "components/DocumentToObject.coffee",
+    "components/FindDocument.coffee",
+    "components/FindOneDocument.coffee",
+    "components/GetModel.coffee",
+    "components/SaveDocument.coffee"
+  ],
+  "json": [
+    "component.json"
+  ],
+  "noflo": {
+    "icon": "hdd-o",
+    "components": {
+      "Connection": "components/Connection.coffee",
+      "CreateDocument": "components/CreateDocument.coffee",
+      "CreateModel": "components/CreateModel.coffee",
+      "DocumentToJSON": "components/DocumentToJSON.coffee",
+      "DocumentToObject": "components/DocumentToObject.coffee",
+      "FindDocument": "components/FindDocument.coffee",
+      "FindOneDocument": "components/FindOneDocument.coffee",
+      "GetModel": "components/GetModel.coffee",
+      "SaveDocument": "components/SaveDocument.coffee"
+    }
+  }
+}
