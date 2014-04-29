@@ -9,6 +9,9 @@
   "repo": "djdeath/noflo-express",
   "keywords": [
   ],
+  "dependencies": {
+    "noflo/noflo": "*"
+  },
   "scripts": [
     "index.js",
     "components/Connection.coffee",
